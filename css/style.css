@@ -8,21 +8,22 @@ body {
   font-family: "Roboto", sans-serif;
   margin: 0;
   padding: 0;
-  background-color: aquamarine; /* Color de fondo correcto */
 }
-
+/*header estilos*/
 header {
-  top: 0; /* Fija el encabezado en la parte superior */
-  width: 100%; /* Ocupa todo el ancho de la ventana */
-  z-index: 999; /* Asegura que el encabezado esté en la parte superior */
-  background-color: #ff9800; /* Puedes personalizar el color de fondo */
+  top: 0;
+  width: 100%;
+  z-index: 999;
+  background-color: #ff9800;
   padding: 0, 25rem;
 }
+/*header estilos*/
+/*estilos index*/
 .hero {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url("https://images.unsplash.com/photo-1548199973-03cce0bbc87b?q=80&w=1469&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
   background-size: cover;
-  background-position: center; /* Centra la parte superior de la imagen */
+  background-position: center;
   color: #fff;
   text-align: center;
   padding: 100px 20px;
@@ -35,7 +36,7 @@ header {
 
 .cta-button {
   display: inline-block;
-  background-color: #ff9800; /* Naranja */
+  background-color: #ff9800;
   color: #fff;
   padding: 10px 20px;
   text-decoration: none;
@@ -43,8 +44,8 @@ header {
 }
 
 .cta-button:hover {
-  background-color: #ff5722; /* Naranja Oscuro */
-  color: #333;
+  background-color: #ffffff;
+  color: #ff9800;
 }
 
 .services {
@@ -60,15 +61,16 @@ header {
 }
 
 .service a {
-  display: block; /* Hace que el enlace abarque todo el contenedor */
+  display: block;
 }
 
 .service img {
-  max-width: 100%; /* Ancho máximo del contenedor */
-  max-height: 25rem; /* Altura máxima */
-  width: 100%; /* Para asegurar que todas ocupen el 100% del ancho del contenedor */
-  height: auto; /* Para mantener la relación de aspecto */
+  max-width: 100%;
+  max-height: 25rem;
+  width: 100%;
+  height: auto;
   margin-bottom: 2rem;
+  border-radius: 1%;
 }
 
 .about {
@@ -76,8 +78,8 @@ header {
 }
 
 .about p {
-  max-width: 800px; /* Ajusta el ancho máximo según sea necesario */
-  margin: 0 auto; /* Centra horizontalmente */
+  max-width: 800px;
+  margin: 0 auto;
   font-size: 1rem;
 }
 
@@ -99,6 +101,8 @@ header {
   min-height: 600px;
 }
 
+/*estilos index*/
+/*estilos footer*/
 .contact {
   background-color: #f0f0f0;
   padding: 50px 20px;
@@ -115,9 +119,7 @@ footer {
   text-align: center;
   padding: 20px 0;
 }
-
-@media screen and (min-width: 1440px) {
-}
+/*estilos footer*/
 
 /* Media queries para tablet */
 @media screen and (min-width: 768px) and (max-width: 1023px) {
@@ -129,7 +131,7 @@ footer {
     font-size: 24px;
   }
   .gallery-grid {
-    grid-template-columns: repeat(3, 1fr); /* Establece 3 columnas iguales */
+    grid-template-columns: repeat(3, 1fr);
   }
   .services {
     display: block;
@@ -153,14 +155,14 @@ footer {
     width: 100%;
   }
 }
-@media (min-width: 768px) {
-}
+
 /* Estilos para los enlaces en el hover */
 a:hover {
-  color: #ff9800; /* Cambia el color del texto del enlace */
-  transform: scale(1.1); /* Aumenta ligeramente el tamaño del enlace */
+  color: #ff9800;
+  transform: scale(1.1);
 }
-/*galeria*/
+
+/* estilos galeria*/
 .galeria {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -176,8 +178,8 @@ a:hover {
 
 .gallery-item img {
   width: 100%;
-  height: 500px; /* Tamaño fijo para las imágenes */
-  object-fit: cover; /* Estilo de recorte para mantener las proporciones */
+  height: 31.25rem;
+  object-fit: cover;
   display: block;
   transition: transform 0.3s ease;
 }
