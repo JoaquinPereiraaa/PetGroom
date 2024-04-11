@@ -1,0 +1,48 @@
+/*variables*/
+$cool_primary:#ff9800;
+$blanco:#f1f1f1;
+/*variables*//* Estilos Generales*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  /*header estilos*/
+header {
+    top: 0;
+    width: 100%;
+    z-index: 999;
+    background-color: $cool_primary;
+    padding: 0, 25rem;
+    nav{
+        .container{
+            a{
+                color: #000000;
+                &:active{transform: scale(1.04);
+            }
+        }
+    }
+    }
+}
+  /*header estilos*/
+/*estilos footer*/
+.contact {
+    background-color: $cool_primary;
+    padding: 50px 20px;
+    text-align: center;
+    p{
+        margin: 10px 0;
+    }
+}
+footer {
+    background-color: #333;
+    color: $blanco;
+    text-align: center;
+    padding: 20px 0;
+}
+/*estilos footer*/

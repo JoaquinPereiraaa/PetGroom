@@ -1,0 +1,11 @@
+{
+  "name": "ultimapagina",
+  "version": "1.0.0",
+  "description": "> PetGroom es un SPA para mascotas. Donde se ofrecen servicios como hospedaje, peluqueria, higiene. Y el mejor trato para tu amigo peludo.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
