@@ -270,7 +270,9 @@ footer {
 /*reserva*/
 /*contacto*/
 .main-contacto h1, .main-galeria h1, .main-reserva h1 {
+  margin: 0 auto;
   text-align: center;
+  width: max-content;
   margin-bottom: 2rem;
   margin-top: 2rem;
   animation-name: primera_animacion;
@@ -298,14 +300,32 @@ footer {
   0% {
     transform: scale(1);
   }
-  25% {
-    transform: scale(1.05);
+  10% {
+    transform: scale(1.01);
+  }
+  20% {
+    transform: scale(1.02);
+  }
+  30% {
+    transform: scale(1.03);
+  }
+  40% {
+    transform: scale(1.04);
   }
   50% {
-    transform: scale(1.1);
-  }
-  75% {
     transform: scale(1.05);
+  }
+  60% {
+    transform: scale(1.04);
+  }
+  70% {
+    transform: scale(1.03);
+  }
+  80% {
+    transform: scale(1.02);
+  }
+  90% {
+    transform: scale(1.01);
   }
   100% {
     transform: scale(1);
