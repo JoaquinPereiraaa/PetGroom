@@ -59,51 +59,52 @@
         </div>
       </nav>
     </header>
-    <!-- Contenido de la página de reservas -->
-    <div class="container mt-5">
-      <h1 class="text-center mb-4">Reservar Lugar para Mascotas</h1>
-      <div class="row">
-        <div class="col-md-6">
-          <form>
-            <div class="mb-3">
-              <label for="nombre" class="form-label"
-                >Nombre de la Mascota</label
-              >
-              <input
-                type="text"
-                class="form-control"
-                id="nombre"
-                placeholder="Ingrese el nombre de su mascota"
-              />
-            </div>
-            <div class="mb-3">
-              <label for="fecha" class="form-label">Fecha de Reserva</label>
-              <input type="date" class="form-control" id="fecha" />
-            </div>
-            <div class="mb-3">
-              <label for="tiempo" class="form-label">Tiempo de Estadía</label>
-              <select class="form-select" id="tiempo">
-                <option selected>Seleccione el tiempo de estadía</option>
-                <option value="1">1 día</option>
-                <option value="3">3 días</option>
-                <option value="7">1 semana</option>
-                <option value="14">2 semanas</option>
-              </select>
-            </div>
-            <div class="mb-3">
-              <button type="submit" class="btn">Confirmar Reserva</button>
-            </div>
-          </form>
-        </div>
-        <div class="col-md-6">
-          <img
-            src="https://images.unsplash.com/photo-1581888227599-779811939961?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-            alt="Imagen de mascota"
-            class="img-fluid"
-          />
+    <main class="main-reserva">
+      <div class="container mt-5">
+        <h1>Reservar Lugar para Mascotas</h1>
+        <div class="row">
+          <div class="col-md-6">
+            <form>
+              <div class="mb-3">
+                <label for="nombre" class="form-label"
+                  >Nombre de la Mascota</label
+                >
+                <input
+                  type="text"
+                  class="form-control"
+                  id="nombre"
+                  placeholder="Ingrese el nombre de su mascota"
+                />
+              </div>
+              <div class="mb-3">
+                <label for="fecha" class="form-label">Fecha de Reserva</label>
+                <input type="date" class="form-control" id="fecha" />
+              </div>
+              <div class="mb-3">
+                <label for="tiempo" class="form-label">Tiempo de Estadía</label>
+                <select class="form-select" id="tiempo">
+                  <option selected>Seleccione el tiempo de estadía</option>
+                  <option value="1">1 día</option>
+                  <option value="3">3 días</option>
+                  <option value="7">1 semana</option>
+                  <option value="14">2 semanas</option>
+                </select>
+              </div>
+              <div class="mb-3">
+                <button type="submit" class="btn">Confirmar Reserva</button>
+              </div>
+            </form>
+          </div>
+          <div class="col-md-6 mb-5">
+            <img
+              src="https://images.unsplash.com/photo-1581888227599-779811939961?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              alt="Imagen de mascota"
+              class="img-fluid"
+            />
+          </div>
         </div>
       </div>
-    </div>
+    </main>
     <section class="contact">
       <h2>Contacto</h2>
       <p>¡Contáctanos hoy para programar una cita para tu mascota!</p>

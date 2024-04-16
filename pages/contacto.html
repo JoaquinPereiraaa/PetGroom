@@ -15,6 +15,10 @@
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
       crossorigin="anonymous"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
   </head>
   <body>
     <header>
@@ -44,7 +48,9 @@
                 <a class="nav-link" href="./galeria.html">Galeria</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="./contacto.html">Contacto</a>
+                <a class="nav-link text-light" href="./contacto.html"
+                  >CONTACTO</a
+                >
               </li>
               <li class="nav-item">
                 <a
@@ -59,58 +65,61 @@
         </div>
       </nav>
     </header>
-    <div id="carouselExample" class="carousel slide mb-5 mt-5">
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <a href="https://www.facebook.com/" target="_blank">
-            <img
-              src="https://www.portada.com.uy/wp-content/uploads/2024/02/Facebook-Ads.jpeg"
-              class="d-block w-100"
-              alt="face"
-            />
-          </a>
+    <main class="main-contacto">
+      <h1 class="animacion">CONTACTO</h1>
+      <div id="carouselExample" class="carousel slide mb-5 mt-5">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <a href="https://www.facebook.com/" target="_blank">
+              <img
+                src="https://www.portada.com.uy/wp-content/uploads/2024/02/Facebook-Ads.jpeg"
+                class="d-block w-100"
+                alt="face"
+              />
+            </a>
+          </div>
+          <div class="carousel-item">
+            <a
+              href="https://www.google.com/maps/place/Estadio+Centenario/@-34.8947883,-56.4418575,11z/data=!4m10!1m2!2m1!1scentenario!3m6!1s0x959f81021a293c9f:0x47c23b3c464091c1!8m2!3d-34.8947883!4d-56.1534664!15sCgpjZW50ZW5hcmlvkgEHc3RhZGl1beABAA!16s%2Fm%2F0268cc0?entry=ttu"
+              target="_blank"
+            >
+              <img
+                src="https://i0.wp.com/codigoespagueti.com/wp-content/uploads/2022/05/Como-compartir-tu-ubicacion-en-Google-Maps.jpg"
+                class="d-block w-100"
+                alt="map"
+              />
+            </a>
+          </div>
+          <div class="carousel-item">
+            <a href="https://www.whatsapp.com/" target="_blank">
+              <img
+                src="https://media.es.wired.com/photos/6325168c64fe55a038bdcb0c/16:9/w_2560%2Cc_limit/WhatsApp_Logo_2-1.jpeg"
+                class="d-block w-100"
+                alt="wpp"
+              />
+            </a>
+          </div>
         </div>
-        <div class="carousel-item">
-          <a
-            href="https://www.google.com/maps/place/Estadio+Centenario/@-34.8947883,-56.4418575,11z/data=!4m10!1m2!2m1!1scentenario!3m6!1s0x959f81021a293c9f:0x47c23b3c464091c1!8m2!3d-34.8947883!4d-56.1534664!15sCgpjZW50ZW5hcmlvkgEHc3RhZGl1beABAA!16s%2Fm%2F0268cc0?entry=ttu"
-            target="_blank"
-          >
-            <img
-              src="https://i0.wp.com/codigoespagueti.com/wp-content/uploads/2022/05/Como-compartir-tu-ubicacion-en-Google-Maps.jpg"
-              class="d-block w-100"
-              alt="map"
-            />
-          </a>
-        </div>
-        <div class="carousel-item">
-          <a href="https://www.whatsapp.com/" target="_blank">
-            <img
-              src="https://media.es.wired.com/photos/6325168c64fe55a038bdcb0c/16:9/w_2560%2Cc_limit/WhatsApp_Logo_2-1.jpeg"
-              class="d-block w-100"
-              alt="wpp"
-            />
-          </a>
-        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExample"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExample"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
       </div>
-      <button
-        class="carousel-control-prev"
-        type="button"
-        data-bs-target="#carouselExample"
-        data-bs-slide="prev"
-      >
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button
-        class="carousel-control-next"
-        type="button"
-        data-bs-target="#carouselExample"
-        data-bs-slide="next"
-      >
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
-    </div>
+    </main>
     <section class="contact">
       <h2>Contacto</h2>
       <p>¡Contáctanos hoy para programar una cita para tu mascota!</p>

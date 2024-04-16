@@ -1,0 +1,12 @@
+.main-reserva{
+    @extend .main-contacto
+}
+.mb-3{
+    button{
+        background-color: $cool_primary;
+        &:hover{transform: scale(1.1);
+            background-color: $blanco;
+            color: $cool_primary;
+        }
+    }
+}
