@@ -4,12 +4,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-}
-
-body {
   font-family: "Roboto", sans-serif;
-  margin: 0;
-  padding: 0;
 }
 
 /*header estilos*/
@@ -110,7 +105,15 @@ footer {
     font-size: 2.5rem;
   }
 }
+.gallery-item img {
+  height: 31.25rem;
+}
+
 /*estilos index*/
+.body-index {
+  background: linear-gradient(0deg, rgba(255, 255, 255, 0.9584208683) 30%, rgba(255, 153, 0, 0.4392156863) 70%);
+}
+
 .main-index .hero {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://images.unsplash.com/photo-1548199973-03cce0bbc87b?q=80&w=1469&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
   background-size: cover;
@@ -233,6 +236,10 @@ footer {
 /*estilos index*/
 /* Estilos para los enlaces en el hover */
 /* estilos galeria*/
+.body-galeria {
+  background: linear-gradient(0deg, #ff9800 40%, rgba(255, 255, 255, 0.9584208683) 60%);
+}
+
 .galeria {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -247,8 +254,8 @@ footer {
 }
 .gallery-item img {
   width: 100%;
-  height: 31.25rem;
-  object-fit: cover;
+  height: 21.25rem;
+  object-fit: fill;
   display: block;
   transition: transform 0.3s ease;
 }
@@ -259,16 +266,31 @@ footer {
 /*galeria*/
 /*reserva*/
 .mb-3 button {
-  background-color: #ff9800;
+  background-color: black;
+  color: #f1f1f1;
 }
 .mb-3 button:hover {
   transform: scale(1.1);
   background-color: #f1f1f1;
-  color: #ff9800;
+  color: black;
+}
+
+.body-reserva {
+  background: linear-gradient(0deg, #ff9800 40%, rgba(255, 255, 255, 0.9584208683) 60%);
 }
 
 /*reserva*/
+/*terminos*/
+.body-terminos {
+  background: linear-gradient(0deg, #ff9800 40%, rgba(255, 255, 255, 0.9584208683) 60%);
+}
+
+/*terminos*/
 /*contacto*/
+.body-contacto {
+  background: linear-gradient(0deg, #ff9800 40%, rgba(255, 255, 255, 0.9584208683) 60%);
+}
+
 .main-contacto h1, .main-galeria h1, .main-reserva h1 {
   margin: 0 auto;
   text-align: center;
@@ -279,7 +301,7 @@ footer {
   animation-iteration-count: infinite;
   animation-timing-function: ease-in;
   animation-duration: 5s;
-  animation-delay: 0.5s;
+  animation-delay: 0s;
 }
 .main-contacto .carousel-control-prev, .main-galeria .carousel-control-prev, .main-reserva .carousel-control-prev,
 .main-contacto .carousel-control-next,
@@ -298,37 +320,19 @@ footer {
 
 @keyframes primera_animacion {
   0% {
-    transform: scale(1);
+    filter: drop-shadow(5px 5px 2px rgba(243, 147, 38, 0.623));
   }
-  10% {
-    transform: scale(1.01);
-  }
-  20% {
-    transform: scale(1.02);
-  }
-  30% {
-    transform: scale(1.03);
-  }
-  40% {
-    transform: scale(1.04);
+  25% {
+    filter: drop-shadow(5px 5px 2px rgba(243, 147, 38, 0.267));
   }
   50% {
-    transform: scale(1.05);
+    filter: drop-shadow(5px 5px 2px rgba(243, 147, 38, 0.623));
   }
-  60% {
-    transform: scale(1.04);
-  }
-  70% {
-    transform: scale(1.03);
-  }
-  80% {
-    transform: scale(1.02);
-  }
-  90% {
-    transform: scale(1.01);
+  75% {
+    filter: drop-shadow(5px 5px 2px rgba(243, 147, 38, 0.267));
   }
   100% {
-    transform: scale(1);
+    filter: drop-shadow(5px 5px 2px rgba(243, 147, 38, 0.623));
   }
 }
 

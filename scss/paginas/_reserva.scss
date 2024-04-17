@@ -3,10 +3,14 @@
 }
 .mb-3{
     button{
-        background-color: $cool_primary;
+        background-color: black;
+        color: $blanco;
         &:hover{transform: scale(1.1);
             background-color: $blanco;
-            color: $cool_primary;
+            color: black;
         }
     }
+}
+.body-reserva{
+    background: $background;
 }

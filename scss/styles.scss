@@ -3,6 +3,7 @@
 /*mediaqueries*/
 @import "./mediaQuery/desktop";
 @import "./mediaQuery/tablet";
+@import "./mediaQuery/mobile";
 
   /*estilos index*/
 @import "./paginas/index";
@@ -15,7 +16,9 @@
 /*reserva*/
 @import "./paginas/reserva";
 /*reserva*/
-
+/*terminos*/
+@import "./paginas/terminos";
+/*terminos*/
 
 /*contacto*/
 @import "./paginas/contacto";
