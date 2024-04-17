@@ -1,5 +1,12 @@
-
-@import "generales";
+/*variables*/
+$cool_primary:#ff9800;
+$blanco:#f1f1f1;
+$background: linear-gradient(0deg, $cool_primary 40%, rgba(255,255,255,0.958420868347339) 60%);
+$background-index: linear-gradient(0deg,rgba(255,255,255,0.958420868347339)  30%, #ff990070 70%);
+/*variables*/
+@import "./base/footer";
+@import "./base/header";
+@import "./base/generales";
 /*mediaqueries*/
 @import "./mediaQuery/desktop";
 @import "./mediaQuery/tablet";

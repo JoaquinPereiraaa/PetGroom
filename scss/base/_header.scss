@@ -1,0 +1,18 @@
+header {
+    top: 0;
+    width: 100%;
+    z-index: 999;
+    background-color: $cool_primary;
+    padding: 0, 25rem;
+    nav{
+        .container{
+            a{
+                color: #000000;
+                &:active{transform: scale(1.04);
+            }
+        }
+    }
+    }
+}
+  /*header estilos*/
+
