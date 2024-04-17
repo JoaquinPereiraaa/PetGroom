@@ -109,6 +109,16 @@ footer {
   height: 31.25rem;
 }
 
+.main-galeria h1 {
+  font-weight: bolder;
+  font-size: 3rem;
+}
+
+.main-contacto h1, .main-reserva h1, .main-galeria h1 {
+  font-weight: bolder;
+  font-size: 3rem;
+}
+
 /*estilos index*/
 .body-index {
   background: linear-gradient(0deg, rgba(255, 255, 255, 0.9584208683) 30%, rgba(255, 153, 0, 0.4392156863) 70%);
