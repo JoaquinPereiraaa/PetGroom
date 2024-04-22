@@ -17,6 +17,7 @@ footer {
 }
 
 header {
+  position: sticky;
   top: 0;
   width: 100%;
   z-index: 999;
@@ -135,7 +136,7 @@ header nav .container a:active {
   padding: 100px 20px;
   margin-bottom: 2rem;
 }
-.main-index .hero h2 {
+.main-index .hero h1 {
   margin-bottom: 20px;
 }
 .main-index .hero .cta-button {
