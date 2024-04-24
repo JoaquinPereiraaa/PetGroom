@@ -100,6 +100,33 @@ header nav .container a:active {
     border-radius: 1%;
     object-fit: cover;
   }
+  .main-contacto {
+    background: linear-gradient(rgba(0, 0, 0, 0.473), rgba(24, 23, 23, 0.247)), url(https://images.unsplash.com/photo-1554692936-82776f9406db?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-position: center;
+  }
+  .main-contacto .contacto {
+    padding: 50px;
+  }
+  .main-contacto .contacto .contenido-contacto h1 {
+    font-weight: bolder;
+    font-size: 3rem;
+  }
+  .main-contacto .contacto .contenido-contacto p {
+    font-weight: bolder;
+    font-size: 2rem;
+    color: #f1f1f1;
+    background-color: rgba(255, 255, 255, 0);
+  }
+  .main-contacto .contacto .contacto-contenedor {
+    flex-direction: column;
+  }
+  .main-contacto .contacto .contacto-contenedor .info-contacto {
+    margin-bottom: 2.5rem;
+  }
+  .main-contacto .contacto .contacto-contenedor .info-contacto, .main-contacto .contacto .contacto-contenedor .formulario-contacto {
+    width: 100%;
+  }
   .gallery h2 {
     font-size: 2.5rem;
   }
@@ -112,15 +139,57 @@ header nav .container a:active {
     font-weight: bolder;
     font-size: 3rem;
   }
-  .main-contacto h1, .main-reserva h1, .main-galeria h1 {
+  .main-contacto {
+    background: linear-gradient(rgba(0, 0, 0, 0.473), rgba(24, 23, 23, 0.247)), url(https://images.unsplash.com/photo-1554692936-82776f9406db?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-position: center;
+  }
+  .main-contacto .contacto {
+    padding: 50px;
+  }
+  .main-contacto .contacto .contenido-contacto h1 {
     font-weight: bolder;
     font-size: 3rem;
   }
-  .main-reserva h1 {
+  .main-contacto .contacto .contenido-contacto p {
     font-weight: bolder;
-    font-size: 1.3rem;
+    font-size: 1rem;
+    color: #f1f1f1;
+    background-color: rgba(255, 255, 255, 0);
+  }
+  .main-contacto .contacto .contacto-contenedor {
+    flex-direction: column;
+  }
+  .main-contacto .contacto .contacto-contenedor .info-contacto {
+    margin-bottom: 2.5rem;
+  }
+  .main-contacto .contacto .contacto-contenedor .info-contacto .box .text h3 {
+    font-size: 1.5rem;
+  }
+  .main-contacto .contacto .contacto-contenedor .info-contacto, .main-contacto .contacto .contacto-contenedor .formulario-contacto {
+    width: 100%;
+  }
+  .main-contacto .contacto .formulario-contacto {
+    padding: 3px;
+  }
+  .main-contacto .contacto .formulario-contacto h2 {
+    font-size: 24px;
+    color: #000000;
+    font-weight: 400;
+  }
+  .main-contacto .contacto .formulario-contacto .input-box input, .main-contacto .contacto .formulario-contacto .input-box textarea {
+    font-size: 16px;
+    font-weight: 200;
+  }
+  .main-contacto .contacto .formulario-contacto input:focus ~ span, .main-contacto .contacto .formulario-contacto input:valid ~ span, .main-contacto .contacto .formulario-contacto textarea:focus ~ span, .main-contacto .contacto .formulario-contacto textarea:valid ~ span {
+    font-size: 14px;
   }
 }
+.main-reserva h1 {
+  font-weight: bolder;
+  font-size: 1.3rem;
+}
+
 /*estilos index*/
 .body-index {
   background: linear-gradient(0deg, rgba(255, 255, 255, 0.9584208683) 30%, rgba(255, 153, 0, 0.4392156863) 70%);
@@ -300,10 +369,12 @@ header nav .container a:active {
 /*terminos*/
 /*contacto*/
 .body-contacto {
-  background: linear-gradient(0deg, #ff9800 40%, rgba(255, 255, 255, 0.9584208683) 60%);
+  background: linear-gradient(rgba(0, 0, 0, 0.473), rgba(24, 23, 23, 0.247)), url(https://images.unsplash.com/photo-1504208434309-cb69f4fe52b0?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  background-size: cover;
+  background-position: right;
 }
 
-.main-contacto h1, .main-galeria h1, .main-reserva h1 {
+.main-contacto .animacion, .main-contacto .main-galeria h1, .main-galeria .main-contacto h1, .main-contacto .main-reserva h1, .main-reserva .main-contacto h1 {
   margin: 0 auto;
   text-align: center;
   width: max-content;
@@ -315,37 +386,143 @@ header nav .container a:active {
   animation-duration: 5s;
   animation-delay: 0s;
 }
-.main-contacto .carousel-control-prev, .main-galeria .carousel-control-prev, .main-reserva .carousel-control-prev,
-.main-contacto .carousel-control-next,
-.main-galeria .carousel-control-next,
-.main-reserva .carousel-control-next {
-  background-color: rgba(0, 0, 0, 0.5);
-  border-color: rgba(0, 0, 0, 0.5);
+.main-contacto section {
+  position: relative;
+  min-height: 100vh;
+  padding: 50px 100px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
-.main-contacto .carousel-control-prev:hover, .main-galeria .carousel-control-prev:hover, .main-reserva .carousel-control-prev:hover,
-.main-contacto .carousel-control-next:hover,
-.main-galeria .carousel-control-next:hover,
-.main-reserva .carousel-control-next:hover {
-  background-color: rgba(0, 0, 0, 0.7);
-  border-color: rgba(0, 0, 0, 0.7);
+.main-contacto section .contenido-contacto {
+  max-width: 50rem;
+  text-align: center;
+}
+.main-contacto section .contenido-contacto p {
+  font-weight: 400;
+  font-size: 36px;
+  color: #f1f1f1;
+}
+.main-contacto section .contacto-contenedor {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1.875rem;
+}
+.main-contacto section .contacto-contenedor .info-contacto {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+.main-contacto section .contacto-contenedor .info-contacto .box {
+  position: relative;
+  padding: 1.25rem 0;
+  display: flex;
+}
+.main-contacto section .contacto-contenedor .info-contacto .box .icon {
+  min-width: 2.8rem;
+  height: 50px;
+  background: rgba(0, 0, 0, 0.368627451);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 60%;
+  font-size: 22px;
+}
+.main-contacto section .contacto-contenedor .info-contacto .box .text {
+  display: flex;
+  margin-left: 20px;
+  font-size: 16px;
+  color: #f1f1f1;
+  flex-direction: column;
+  font-weight: 300;
+}
+.main-contacto section .contacto-contenedor .info-contacto .box .text h3 {
+  font-weight: 500;
+  color: #ff9800;
+}
+.main-contacto section .formulario-contacto {
+  width: 40%;
+  padding: 40px;
+  background: linear-gradient(rgba(255, 255, 255, 0.226), rgba(255, 255, 255, 0.356));
+  background-size: cover;
+  background-position: center;
+}
+.main-contacto section .formulario-contacto h2 {
+  font-size: 30px;
+  color: #000000;
+  font-weight: 600;
+}
+.main-contacto section .formulario-contacto .input-box {
+  position: relative;
+  width: 100%;
+  margin-top: 10px;
+}
+.main-contacto section .formulario-contacto .input-box input, .main-contacto section .formulario-contacto .input-box textarea {
+  width: 100%;
+  padding: 5px;
+  font-size: 16px;
+  font-weight: 500;
+  margin: 10px 0;
+  border: none;
+  border-bottom: 2px solid #333;
+  outline: none;
+  resize: none;
+  background-color: rgba(255, 255, 255, 0);
+}
+.main-contacto section .formulario-contacto .input-box span {
+  position: absolute;
+  left: 0;
+  padding: 5px 0;
+  font-size: 16px;
+  margin: 10px 0;
+  pointer-events: none;
+  transition: 0.5s;
+  color: #000000;
+  font-weight: 800;
+}
+.main-contacto section .formulario-contacto .input-box input:focus ~ span, .main-contacto section .formulario-contacto .input-box input:valid ~ span, .main-contacto section .formulario-contacto .input-box textarea:focus ~ span, .main-contacto section .formulario-contacto .input-box textarea:valid ~ span {
+  color: black;
+  font-size: 14px;
+  transform: translateY(-20px);
+}
+.main-contacto section .formulario-contacto .input-box input[type=submit] {
+  width: 100px;
+  background: #ff9800;
+  color: black;
+  border: none;
+  font-size: 18px;
 }
 
 @keyframes primera_animacion {
   0% {
-    filter: drop-shadow(5px 5px 2px rgba(243, 147, 38, 0.623));
+    filter: drop-shadow(5px 5px 2px rgb(243, 147, 38));
   }
   25% {
     filter: drop-shadow(5px 5px 2px rgba(243, 147, 38, 0.267));
   }
   50% {
-    filter: drop-shadow(5px 5px 2px rgba(243, 147, 38, 0.623));
+    filter: drop-shadow(5px 5px 2px rgb(243, 147, 38));
   }
   75% {
     filter: drop-shadow(5px 5px 2px rgba(243, 147, 38, 0.267));
   }
   100% {
-    filter: drop-shadow(5px 5px 2px rgba(243, 147, 38, 0.623));
+    filter: drop-shadow(5px 5px 2px rgb(243, 147, 38));
   }
+}
+.animacion, .main-galeria h1, .main-reserva h1 {
+  margin: 0 auto;
+  text-align: center;
+  width: max-content;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+  animation-name: primera_animacion;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in;
+  animation-duration: 5s;
+  animation-delay: 0s;
 }
 
 /*# sourceMappingURL=styles.css.map */

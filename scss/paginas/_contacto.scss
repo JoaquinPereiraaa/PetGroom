@@ -1,8 +1,10 @@
 .body-contacto{
-    background: $background;
-}
+    background:linear-gradient(rgba(0, 0, 0, 0.473), rgba(24, 23, 23, 0.247)),url(https://images.unsplash.com/photo-1504208434309-cb69f4fe52b0?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-position: right;
+    }
 .main-contacto{
-    h1{
+    .animacion{
         margin: 0 auto;
         text-align: center;
         width: max-content;
@@ -14,5 +16,113 @@
         animation-duration: 5s;
         animation-delay: 0s;
     }
-    @import "../components/carrousel";
+    section{
+        position:relative;
+        min-height: 100vh;
+        padding: 50px 100px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+
+        .contenido-contacto{
+            max-width: 50rem;
+            text-align: center;
+            p{
+                font-weight: 400;
+                font-size: 36px;
+                color: $blanco;
+            }
+        }
+        .contacto-contenedor{
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 1.875rem;
+            .info-contacto{
+                width: 50%;
+                display: flex;
+                flex-direction: column;
+                .box{
+                    position: relative;
+                    padding: 1.25rem 0;
+                    display: flex;
+                    .icon{
+                        min-width: 2.8rem;
+                        height: 50px;
+                        background: #0000005e;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        border-radius: 60%;
+                        font-size: 22px;
+                    }
+                    .text{
+                        display: flex;
+                        margin-left: 20px;
+                        font-size: 16px;
+                        color: $blanco;
+                        flex-direction: column;
+                        font-weight: 300;
+                        h3{
+                            font-weight: 500;
+                            color: $cool_primary
+                        }
+                    }
+                }
+            }
+        }
+        .formulario-contacto{
+            width: 40%;
+            padding: 40px;
+            background:linear-gradient(rgba(255, 255, 255, 0.226), rgba(255, 255, 255, 0.356));
+            background-size: cover;
+            background-position: center;
+            h2{
+                font-size: 30px;
+                color: #000000;
+                font-weight:600;
+            }
+            .input-box{
+                position: relative;
+                width: 100%;
+                margin-top: 10px;
+                input, textarea{
+                    width: 100%;
+                    padding: 5px;
+                    font-size: 16px;
+                    font-weight: 500;
+                    margin: 10px 0;
+                    border: none;
+                    border-bottom: 2px solid #333;
+                    outline: none;
+                    resize: none;
+                    background-color: rgba(255, 255, 255, 0);
+                }
+                span{
+                    position: absolute;
+                    left:   0;
+                    padding: 5px 0;
+                    font-size: 16px;
+                    margin: 10px 0;
+                    pointer-events: none;
+                    transition: 0.5s;
+                    color: #000000;
+                    font-weight: 800;
+                }
+                input:focus ~ span, input:valid ~ span, textarea:focus ~ span, textarea:valid ~ span{
+                    color: black;
+                    font-size: 14px;
+                    transform: translateY(-20px);
+                }
+                input[type="submit"]{
+                    width:100px;
+                    background: $cool_primary;
+                    color: black;
+                    border: none;
+                    font-size: 18px;
+                }
+            }
+        }
+    }
 }

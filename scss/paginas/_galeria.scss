@@ -23,5 +23,6 @@
 }
 
 .main-galeria{
-    @extend.main-contacto;
+    h1{@extend.animacion;}
+    
 }

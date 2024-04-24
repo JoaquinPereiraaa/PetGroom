@@ -28,6 +28,12 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css"
+      integrity="sha384-BY+fdrpOd3gfeRvTSMT+VUZmA728cfF9Z2G42xpaRkUGu2i3DyzpTURDo5A6CaLK"
+      crossorigin="anonymous"
+    />
   </head>
   <body class="body-contacto">
     <header>
@@ -75,66 +81,118 @@
       </nav>
     </header>
     <main class="main-contacto">
-      <h1 class="animacion">CONTACTO</h1>
-      <div id="carouselExample" class="carousel slide mb-5 mt-5">
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <a href="https://www.facebook.com/" target="_blank">
-              <img
-                src="https://www.portada.com.uy/wp-content/uploads/2024/02/Facebook-Ads.jpeg"
-                class="d-block w-100"
-                alt="face"
-              />
-            </a>
+      <section class="contacto">
+        <div class="contenido-contacto">
+          <h1 class="animacion">CONTACTO</h1>
+          <p>
+            Aquí te dejamos un lugar para que compartas como fue tu experiencia
+            en el SPA, para ayudarnos a mejorar o para que puedas encontrar
+            donde contactarnos!
+          </p>
+        </div>
+        <div class="contacto-contenedor">
+          <div class="info-contacto">
+            <div class="box">
+              <a
+                href="https://www.google.com/maps/d/u/0/viewer?mid=1NnE1QRUdXcFJeI_iCY820jchte4&hl=en_US&ll=-34.79315800606014%2C-56.05904279742279&z=15"
+                target="_blank"
+              >
+                <div class="icon">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="20"
+                    height="20"
+                    fill="white"
+                    class="bi bi-geo-alt-fill"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10m0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6"
+                    />
+                  </svg></div
+              ></a>
+              <div class="text">
+                <h3>Dirección</h3>
+                <p>
+                  4677 sugar camp road,<br />owatonna, minnesota,<br />55060
+                </p>
+              </div>
+            </div>
+            <div class="box">
+              <a href="https://www.whatsapp.com/" target="_blank">
+                <div class="icon">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="20"
+                    height="20"
+                    fill="white"
+                    class="bi bi-telephone-fill"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877z"
+                    />
+                  </svg>
+                </div>
+              </a>
+              <div class="text">
+                <h3>Teléfono</h3>
+                <p>123-654-879</p>
+              </div>
+            </div>
+            <div class="box">
+              <a
+                href="https://www.google.com/intl/es/gmail/about/"
+                target="_blank"
+              >
+                <div class="icon">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="20"
+                    height="20"
+                    fill="white"
+                    class="bi bi-envelope-at-fill"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M2 2A2 2 0 0 0 .05 3.555L8 8.414l7.95-4.859A2 2 0 0 0 14 2zm-2 9.8V4.698l5.803 3.546zm6.761-2.97-6.57 4.026A2 2 0 0 0 2 14h6.256A4.5 4.5 0 0 1 8 12.5a4.49 4.49 0 0 1 1.606-3.446l-.367-.225L8 9.586zM16 9.671V4.697l-5.803 3.546.338.208A4.5 4.5 0 0 1 12.5 8c1.414 0 2.675.652 3.5 1.671"
+                    />
+                    <path
+                      d="M15.834 12.244c0 1.168-.577 2.025-1.587 2.025-.503 0-1.002-.228-1.12-.648h-.043c-.118.416-.543.643-1.015.643-.77 0-1.259-.542-1.259-1.434v-.529c0-.844.481-1.4 1.26-1.4.585 0 .87.333.953.63h.03v-.568h.905v2.19c0 .272.18.42.411.42.315 0 .639-.415.639-1.39v-.118c0-1.277-.95-2.326-2.484-2.326h-.04c-1.582 0-2.64 1.067-2.64 2.724v.157c0 1.867 1.237 2.654 2.57 2.654h.045c.507 0 .935-.07 1.18-.18v.731c-.219.1-.643.175-1.237.175h-.044C10.438 16 9 14.82 9 12.646v-.214C9 10.36 10.421 9 12.485 9h.035c2.12 0 3.314 1.43 3.314 3.034zm-4.04.21v.227c0 .586.227.8.581.8.31 0 .564-.17.564-.743v-.367c0-.516-.275-.708-.572-.708-.346 0-.573.245-.573.791"
+                    />
+                  </svg>
+                </div>
+              </a>
+              <div class="text">
+                <h3>Email</h3>
+                <p>info@petgroom.com</p>
+              </div>
+            </div>
           </div>
-          <div class="carousel-item">
-            <a
-              href="https://www.google.com/maps/place/Estadio+Centenario/@-34.8947883,-56.4418575,11z/data=!4m10!1m2!2m1!1scentenario!3m6!1s0x959f81021a293c9f:0x47c23b3c464091c1!8m2!3d-34.8947883!4d-56.1534664!15sCgpjZW50ZW5hcmlvkgEHc3RhZGl1beABAA!16s%2Fm%2F0268cc0?entry=ttu"
-              target="_blank"
-            >
-              <img
-                src="https://i0.wp.com/codigoespagueti.com/wp-content/uploads/2022/05/Como-compartir-tu-ubicacion-en-Google-Maps.jpg"
-                class="d-block w-100"
-                alt="map"
-              />
-            </a>
-          </div>
-          <div class="carousel-item">
-            <a href="https://www.whatsapp.com/" target="_blank">
-              <img
-                src="https://media.es.wired.com/photos/6325168c64fe55a038bdcb0c/16:9/w_2560%2Cc_limit/WhatsApp_Logo_2-1.jpeg"
-                class="d-block w-100"
-                alt="wpp"
-              />
-            </a>
+          <div class="formulario-contacto">
+            <form>
+              <h2>COMENTA TU EXPERIENCIA!</h2>
+              <div class="input-box">
+                <input type="text" name="" required />
+                <span>Nombre completo</span>
+              </div>
+              <div class="input-box">
+                <input type="text" name="" required />
+                <span>Email</span>
+              </div>
+              <div class="input-box">
+                <textarea required></textarea>
+                <span>Comenta tu experiencia...</span>
+              </div>
+              <div class="input-box">
+                <input type="submit" name="" value="Enviar" />
+              </div>
+            </form>
           </div>
         </div>
-        <button
-          class="carousel-control-prev"
-          type="button"
-          data-bs-target="#carouselExample"
-          data-bs-slide="prev"
-        >
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button
-          class="carousel-control-next"
-          type="button"
-          data-bs-target="#carouselExample"
-          data-bs-slide="next"
-        >
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
-      </div>
+      </section>
     </main>
-    <section class="contact">
-      <h2>Contacto</h2>
-      <p>¡Contáctanos hoy para programar una cita para tu mascota!</p>
-      <p>Teléfono: 123-456-789</p>
-      <p>Correo electrónico: info@petgroom.com</p>
-    </section>
     <footer>
       <p>
         &copy; 2024 PetGroom - SPA de Mascotas. Todos los derechos reservados.

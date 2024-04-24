@@ -19,6 +19,34 @@
             }
         }
     }
+    .main-contacto{
+        background:linear-gradient(rgba(0, 0, 0, 0.473), rgba(24, 23, 23, 0.247)),url(https://images.unsplash.com/photo-1554692936-82776f9406db?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+        background-size: cover;
+        background-position: center;
+        .contacto{ 
+                padding: 50px;
+                .contenido-contacto{
+                    h1{
+                    font-weight: bolder;
+                    font-size: 3rem;
+                }
+                p{
+                    font-weight: bolder;
+                    font-size: 2rem;
+                    color: $blanco;
+                    background-color: rgba(255, 255, 255, 0) ;
+                }}
+            .contacto-contenedor{
+                flex-direction: column;
+                .info-contacto{
+                    margin-bottom: 2.5rem;
+                }
+                .info-contacto, .formulario-contacto{
+                    width: 100%;
+                }
+            }
+        }
+    }
     .gallery {
         h2{
             font-size: 2.5rem;
