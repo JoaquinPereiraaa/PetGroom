@@ -1,5 +1,5 @@
 .main-galeria{
-    background:linear-gradient(rgba(0, 0, 0, 0.377), rgba(24, 23, 23, 0.253)),url(https://images.unsplash.com/photo-1613678431006-3f369f14a2d9?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background:linear-gradient(rgba(0, 0, 0, 0.377), rgba(24, 23, 23, 0.253)),url(https://images.unsplash.com/photo-1482015527294-7c8203fc9828?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
     background-size: cover;
     background-position: right;
     .contenedor-galeria {
@@ -7,6 +7,7 @@
         margin: 0 auto;
         padding: 20px;
         .titulo-galeria {
+            font-weight: 900;
             text-align: center;
             @extend.animacion;
         }

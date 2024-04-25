@@ -1,6 +1,9 @@
 /*variables*/
-@import "./variables/colors";
+@import "././utilities/variables/colors";
 /*variables*/
+/*mixins*/
+@import "././utilities/mixins/mixins";
+/*mixins*/
 @import "./layouts/footer";
 @import "./layouts/header";
 @import "./base/reset";
@@ -26,10 +29,11 @@
 }
 /*desktops*/
 /*tablet*/
-@media (min-width: 768px) and (max-width: 1023px){  
+@media (min-width: 768px) and (max-width: 1024px){  
 @import "./mediaQuery/tablet/tablet-general";
 @import "./mediaQuery/tablet/tablet-reserva";
 @import "./mediaQuery/tablet/tablet-terminos";
+@import "./mediaQuery/tablet/tablet-index";
 }
 /*tablet*/
 /*media queries*/

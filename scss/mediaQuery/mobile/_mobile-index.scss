@@ -20,10 +20,33 @@
             font-size: 2rem;
             font-weight: 500;
         }
-        .servicios{
-            .service{
-                
+            #carouselExampleCaptions{
+              .carousel-indicators{
+                button{
+    
+                }
+              }
+              .carousel-inner{
+         /* Ajusta el ancho del carrusel */
+                margin: auto;/* Centra el carrusel */
+                .carousel-item{
+                  img{
+                    max-width: 100%; // Ajustar el ancho máximo de las imágenes al 100% del carousel
+                    height: 300px; // Reducir la altura máxima de las imágenes
+                     // Ajustar la altura automáticamente para mantener la proporción
+                    object-fit: cover; // Mantener la relación de aspecto de la imagen
+                    object-position: center center; //
+                  }
+                  .carousel-caption{
+                    h5{
+                        font-size: 1.2rem;
+                    }
+                    p{
+                        font-size: 0.8rem;
+                    }
+                  }
+                }
+              }
             }
         }
     }
-}

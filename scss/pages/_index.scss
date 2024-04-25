@@ -19,21 +19,29 @@
         text-align: center;
         h2 {
             margin-bottom: 2rem;
+            font-weight: 800;
         }
-        .servicios {
-            .service {
-            margin-bottom: 40px;
-            img {
-                width: 100%;
-                max-height: 25rem;
-                height: auto;
-                margin-bottom: 2rem;
-                border-radius: 20%;
-                border: solid 2px black;
-                &:hover{transform: scale(1.02);}
+        #carouselExampleCaptions{
+          .carousel-indicators{
+            button{
+
             }
+          }
+          .carousel-inner{
+     /* Ajusta el ancho del carrusel */
+            margin: auto;/* Centra el carrusel */
+            .carousel-item{
+              img{
+                filter: brightness(60%);
+              }
+              .carousel-caption{
+                h5{
+                  color: rgb(255, 255, 255);
+                }
+              }
+            }
+          }
         }
-    }
     }
 }
 .gallery {
