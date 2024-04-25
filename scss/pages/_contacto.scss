@@ -1,10 +1,8 @@
-.body-contacto{
-    background:linear-gradient(rgba(0, 0, 0, 0.473), rgba(24, 23, 23, 0.247)),url(https://images.unsplash.com/photo-1504208434309-cb69f4fe52b0?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+.main-contacto{    background:linear-gradient(rgba(0, 0, 0, 0.377), rgba(24, 23, 23, 0.253)),url(https://images.unsplash.com/photo-1554692936-82776f9406db?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
     background-size: cover;
-    background-position: right;
-    }
-.main-contacto{
+    background-position: center;
     .animacion{
+        font-weight: 900;
         margin: 0 auto;
         text-align: center;
         width: max-content;

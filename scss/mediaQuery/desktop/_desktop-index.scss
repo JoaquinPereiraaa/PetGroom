@@ -1,0 +1,54 @@
+.main-index{
+    .hero{
+        h1{
+        }
+        p{
+
+        }
+
+    }
+    .about{
+        h2{
+
+        }
+        p{
+
+        }
+    }
+    .services{
+        padding: 50px 20px;
+    text-align: center;
+        h2{
+            margin-bottom: 2rem;
+        }
+        .servicios{
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-gap: 20px;
+            .service {
+                margin-bottom: 40px;
+            img {
+            width: 100%;
+            height: 15rem;
+            margin-bottom: 2rem;
+            border-radius: 1%;
+            object-fit: cover; 
+            }
+        }
+        }
+    }
+}
+
+.gallery{
+    h2{
+        font-size: 3em;
+    }
+} 
+.gallery-grid {
+    grid-template-columns: repeat(3, 1fr);
+    img {
+    max-height: 600px;
+    min-height: 25rem;
+    width: 100%;
+    }
+}

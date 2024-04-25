@@ -1,33 +1,57 @@
 /*variables*/
-$cool_primary:#ff9800;
-$blanco:#f1f1f1;
-$background: linear-gradient(0deg, $cool_primary 40%, rgba(255,255,255,0.958420868347339) 60%);
-$background-index: linear-gradient(0deg,rgba(255,255,255,0.958420868347339)  30%, #ff990070 70%);
+@import "./variables/colors";
 /*variables*/
-@import "./base/footer";
-@import "./base/header";
-@import "./base/generales";
+@import "./layouts/footer";
+@import "./layouts/header";
+@import "./base/reset";
 /*mediaqueries*/
-@import "./mediaQuery/desktop";
-@import "./mediaQuery/tablet";
-@import "./mediaQuery/mobile";
+/*mobile*/
+@media (max-width: 767px) {
+  @import "./mediaQuery/mobile/mobile-index";
+  @import "./mediaQuery/mobile/mobile-terminos";
+  @import "./mediaQuery/mobile/mobile-reserva";
+  @import "./mediaQuery/mobile/mobile-galeria";
+}
+@media (max-width: 991px){
+  @import "./mediaQuery/mobile/mobile-contacto";
+}
+/*mobile*/
+/*desktops*/
+@media (min-width: 1024px){
+@import "./mediaQuery/desktop/desktop-general";
+@import "./mediaQuery/desktop/desktop-index";
+@import"./mediaQuery/desktop/desktop-contacto";
+@import "./mediaQuery/desktop/desktop-reserva";
+@import "./mediaQuery/desktop/desktop-terminos";
+}
+/*desktops*/
+/*tablet*/
+@media (min-width: 768px) and (max-width: 1023px){  
+@import "./mediaQuery/tablet/tablet-general";
+@import "./mediaQuery/tablet/tablet-reserva";
+@import "./mediaQuery/tablet/tablet-terminos";
+}
+/*tablet*/
+/*media queries*/
+
+
+
 
   /*estilos index*/
-@import "./paginas/index";
+@import "./pages/index";
 /*estilos index*/
 
-/* Estilos para los enlaces en el hover */
 /* estilos galeria*/
-@import"./paginas/galeria";
+@import"./pages/galeria";
 /*galeria*/
 /*reserva*/
-@import "./paginas/reserva";
+@import "./pages/reserva";
 /*reserva*/
 /*terminos*/
-@import "./paginas/terminos";
+@import "./pages/terminos";
 /*terminos*/
 
 /*contacto*/
-@import "./paginas/contacto";
+@import "./pages/contacto";
 
 @import "./animaciones/animaciones";
