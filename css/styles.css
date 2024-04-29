@@ -255,6 +255,11 @@ header nav .container a:active {
 .main-index .about {
   text-align: center;
 }
+.main-index .about h2 {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  font-weight: 800;
+}
 .main-index .about p {
   max-width: 800px;
   margin: 0 auto;
@@ -286,6 +291,7 @@ header nav .container a:active {
   text-align: center;
   margin-top: -2rem;
   margin-bottom: 2rem;
+  font-weight: 800;
 }
 
 .gallery-grid {
@@ -399,7 +405,7 @@ header nav .container a:active {
   font-size: 3rem;
   font-weight: 800;
 }
-.main-terminos div h3 {
+.main-terminos div h2 {
   font-weight: 800;
 }
 
