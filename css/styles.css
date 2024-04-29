@@ -224,7 +224,7 @@ header nav .container a:active {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://images.unsplash.com/photo-1548199973-03cce0bbc87b?q=80&w=1469&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../assets/index-img/hero-img.avif");
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -239,7 +239,7 @@ header nav .container a:active {
 }
 .main-index .hero .hero-components .cta-button {
   display: inline-block;
-  background-color: #ff9800;
+  background-color: black;
   color: #f1f1f1;
   padding: 10px 20px;
   text-decoration: none;
@@ -247,7 +247,7 @@ header nav .container a:active {
 }
 .main-index .hero .hero-components .cta-button:hover {
   background-color: #f1f1f1;
-  color: #ff9800;
+  color: black;
 }
 .main-index .hero .hero-components .cta-button:hover:hover {
   transform: scale(1.1);
@@ -349,7 +349,7 @@ header nav .container a:active {
 /*estilos index*/
 /* estilos galeria*/
 .main-galeria {
-  background: linear-gradient(rgba(0, 0, 0, 0.377), rgba(24, 23, 23, 0.253)), url(https://images.unsplash.com/photo-1482015527294-7c8203fc9828?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  background: linear-gradient(rgba(0, 0, 0, 0.377), rgba(24, 23, 23, 0.253)), url(../assets/galeria-img/back-galeria.avif);
   background-size: cover;
   background-position: right;
 }
@@ -398,7 +398,7 @@ header nav .container a:active {
 /*reserva*/
 /*terminos*/
 .body-terminos {
-  background: url(https://images.unsplash.com/photo-1603484477859-abe6a73f9366?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  background: linear-gradient(0deg, rgba(255, 255, 255, 0.9584208683) 30%, rgba(255, 153, 0, 0.4392156863) 70%);
 }
 
 .main-terminos div h1 {
@@ -412,7 +412,7 @@ header nav .container a:active {
 /*terminos*/
 /*contacto*/
 .main-contacto {
-  background: linear-gradient(rgba(0, 0, 0, 0.377), rgba(24, 23, 23, 0.253)), url(https://images.unsplash.com/photo-1554692936-82776f9406db?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  background: linear-gradient(rgba(0, 0, 0, 0.377), rgba(24, 23, 23, 0.253)), url(../assets/contacto-img/back-contacto.avif);
   background-size: cover;
   background-position: center;
 }

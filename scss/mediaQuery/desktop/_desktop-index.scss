@@ -25,14 +25,14 @@
             margin-bottom: 2rem;
         }
         #carouselExampleCaptions {
-            max-width: 80%; // Reducir el ancho máximo del carousel
-            margin: auto; // Centrar el carousel horizontalmente
+            max-width: 80%; 
+            margin: auto; 
             .carousel-inner {
               img {
-                max-width: 100%; // Ajustar el ancho máximo de las imágenes al 100% del carousel
-                height: 600px; // Reducir la altura máxima de las imágenes
-                object-fit: cover; // Mantener la relación de aspecto de la imagen
-                object-position: center center; //
+                max-width: 100%; 
+                height: 600px; 
+                object-fit: cover; 
+                object-position: center center;
               }
             }
           }
