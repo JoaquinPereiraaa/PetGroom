@@ -69,6 +69,7 @@
             }
         }
         .formulario-contacto{
+            @extend.animacion-h1;
             width: 40%;
             padding: 40px;
             background:linear-gradient(rgba(255, 255, 255, 0.226), rgba(255, 255, 255, 0.356));

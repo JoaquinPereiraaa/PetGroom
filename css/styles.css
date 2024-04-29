@@ -47,6 +47,9 @@ header nav .container a:active {
 /*mediaqueries*/
 /*mobile*/
 @media (max-width: 767px) {
+  .main-index .hero .hero-components h1 {
+    font-size: 2.5rem;
+  }
   .main-index .about h2 {
     margin: 2rem 0;
     font-size: 2rem;
@@ -58,8 +61,7 @@ header nav .container a:active {
     font-weight: 500;
   }
   .main-index .services #carouselExampleCaptions .carousel-inner {
-    /* Ajusta el ancho del carrusel */
-    margin: auto; /* Centra el carrusel */
+    margin: auto;
   }
   .main-index .services #carouselExampleCaptions .carousel-inner .carousel-item img {
     max-width: 100%;
@@ -565,6 +567,20 @@ header nav .container a:active {
   animation-timing-function: ease-in;
   animation-duration: 5s;
   animation-delay: 0s;
+}
+
+@keyframes vuelo {
+  0% {
+    transform: translateY(-1000px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+.animacion-h1, .main-contacto section .formulario-contacto {
+  animation: vuelo 2s ease forwards;
 }
 
 /*# sourceMappingURL=styles.css.map */
